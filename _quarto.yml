@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Mermaid-ELK Test"
+  search: true
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  bread-crumbs: true
+
+  navbar:
+    background: primary
+    search: true
+    title: "Mermaid-ELK Test"
+    right:
+      - text: "Index"
+        href: index.qmd
+      - text: "Number 1"
+        href: number1.qmd
+      - text: "Number 2"
+        href: number2.qmd
