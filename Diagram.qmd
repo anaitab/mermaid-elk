@@ -1,0 +1,13 @@
+```{mermaid}
+%%{init: {"theme":"base","fontSize":"0.6em","themeVariables":{"background":"#B8A539","htmlLabels":true},"layout":"elk","elk":{"mergeEdges":true,"nodePlacementStrategy":"simple"},"securityLevel":"loose","flowchart":{"nodeSpacing":10,"rankSpacing":200, "wrappingWidth":230, "padding":3, "defaultRenderer":"elk","layoutAlgorithm":"elk","mergeEdges":true,"nodePlacementStrategy":"simple","htmlLabels":true},"er":{"htmlLabels":true,"layoutDirection":"LR","padding":3,"wrappingWidth":230,"defaultRenderer":"elk","layoutAlgorithm":"elk","mergeEdges":true,"nodePlacementStrategy":"simple"}}}%%
+flowchart LR
+  index["Index"]
+  number1["Number 1"]
+  number2["Number 2"]
+  index --> number1
+  index --> number2
+  click index "index.html"
+  click number1 "number1.html"
+  click number2 "number2.html"
+```
+
