@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mermaid-ELK Test",
+    "section": "",
+    "text": "Map\n\n\n\n\n\n%%{init: {\"theme\":\"base\",\"fontSize\":\"0.6em\",\"themeVariables\":{\"background\":\"#B8A539\",\"htmlLabels\":true},\"layout\":\"elk\",\"elk\":{\"mergeEdges\":true,\"nodePlacementStrategy\":\"simple\"},\"securityLevel\":\"loose\",\"flowchart\":{\"nodeSpacing\":10,\"rankSpacing\":200,\"padding\":3, \"wrappingWidth\":230, \"defaultRenderer\":\"elk\",\"layoutAlgorithm\":\"elk\",\"mergeEdges\":true,\"nodePlacementStrategy\":\"simple\",\"htmlLabels\":true},\"er\":{\"htmlLabels\":true,\"layoutDirection\":\"LR\",\"padding\":3,\"wrappingWidth\":230,\"defaultRenderer\":\"elk\",\"layoutAlgorithm\":\"elk\",\"mergeEdges\":true,\"nodePlacementStrategy\":\"simple\",\"fontSize\":\"0.6em\"}}}%%\nflowchart LR\n  index[\"Index\"]\n  number1[\"number 1\"]\n  number2[\"number 2\"]\n  index --&gt; number1\n  index --&gt; number2\n  click index \"index.html\"\n  click number1 \"number1.html\"\n  click number2 \"number2.html\"\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Diagram.html",
+    "href": "Diagram.html",
+    "title": "Mermaid-ELK Test",
+    "section": "",
+    "text": "%%{init: {\"theme\":\"base\",\"fontSize\":\"0.6em\",\"themeVariables\":{\"background\":\"#B8A539\",\"htmlLabels\":true},\"layout\":\"elk\",\"elk\":{\"mergeEdges\":true,\"nodePlacementStrategy\":\"simple\"},\"securityLevel\":\"loose\",\"flowchart\":{\"nodeSpacing\":10,\"rankSpacing\":200,\"padding\":3, \"wrappingWidth\":230, \"defaultRenderer\":\"elk\",\"layoutAlgorithm\":\"elk\",\"mergeEdges\":true,\"nodePlacementStrategy\":\"simple\",\"htmlLabels\":true},\"er\":{\"htmlLabels\":true,\"layoutDirection\":\"LR\",\"padding\":3,\"wrappingWidth\":230,\"defaultRenderer\":\"elk\",\"layoutAlgorithm\":\"elk\",\"mergeEdges\":true,\"nodePlacementStrategy\":\"simple\",\"fontSize\":\"0.6em\"}}}%%\nflowchart LR\n  index[\"Index\"]\n  number1[\"number 1\"]\n  number2[\"number 2\"]\n  index --&gt; number1\n  index --&gt; number2\n  click index \"index.html\"\n  click number1 \"number1.html\"\n  click number2 \"number2.html\"\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "number1.html",
+    "href": "number1.html",
+    "title": "Number 1",
+    "section": "",
+    "text": "Test 1\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "number2.html",
+    "href": "number2.html",
+    "title": "Number 1",
+    "section": "",
+    "text": "Test 2\n\n\n\n\n Back to top"
+  }
+]
