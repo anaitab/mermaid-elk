@@ -1,10 +1,15 @@
 ---
-title: "Mermaid-ELK Test"
-format:
+title: "Reproducible Quarto Document"
+format: 
   html:
-    engine: knitr
-
+    include-in-header: 
+      text: |
+        <script type="module">
+        import elkLayouts from 'https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0/dist/mermaid-layout-elk.esm.min.mjs';
+        mermaid.registerLayoutLoaders(elkLayouts);
+        </script>
 ---
+
 # Map
 
 {{< include Diagram.qmd >}}

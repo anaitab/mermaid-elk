@@ -1,3 +1,4 @@
+
 ```{mermaid}
 ---
 config:
@@ -15,5 +16,6 @@ flowchart LR
   click index "index.html"
   click number1 "number1.html"
   click number2 "number2.html"
-```
 
+```
+Note: the first line of the included file needs to be an empty line. If the first line of the included file is the one that starts with three backticks (```) an error may happen. 
