@@ -1,4 +1,11 @@
 ```{mermaid}
+---
+config:
+  layout: elk
+  elk:
+    mergeEdges: true
+    nodePlacementStrategy: LINEAR_SEGMENTS
+---
 flowchart LR
   index["Index"]
   number1["Number 1"]
